@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TANAKA Web page</title>
+  <meta name="description" content="sample text">
+  <link rel="stylesheet" href="assets/css/sanitize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/images/icon.svg">
+</head>
+<body>
+
+  <div class="hero"><!-- hero部分はAIに頼ったところが多い。勉強の必要あり -->
+    <strong>Hello World!</strong><!-- 重要な文字を強調するときに使うタグ。1ページに1つほど-->
+    <div class="hero-oarticles"></div>
+    <video autoplay loop muted preload>
+      <source src="assets/videos/hero.mp4" type="video/mp4">
+      <source src="assets/videos/hero.wmv" type="video/wmv">
+    </video>
+  </div> 
+
+  <header class="header">
+    <div class="section-container-2nd">
+      <h1 class="header-logo">TANAKA.Inc</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#feature">Feature</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#map">Map</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <div class="wrapper">
+    <section class="section">
+      <div class="section-container">
+        <h2 class="section-headline" id="about">About</h2>
+        <figure class="about"><!-- 画像＋説明文などを、意味のある1セットとして扱うタグ -->
+          <img class="about-image" src="https://dummyimage.com/600x400/000/fff" alt="About image">
+          <figcaption class="about-caption"><!-- 画像などの説明テキストを入れるタグ -->
+            <h3 class="about-headline">What can we do?</h3>
+            <p class="about-description" >
+              sample text sample text sample text sample text sample text<br/>
+              sample text sample text sample text sample text sample text<br/>
+              <br/>
+              sample text sample text sample text sample text sample text<br/>
+              sample text sample text sample text sample text sample text<br/>
+              sample text sample text sample text sample text sample text
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-2nd">
+      <div class="section-container">
+        <h2 class="section-headline" id="feature">Feature</h2>
+        <div class="feature-card">
+          <ul class="grid grid-col-4">
+            <li>
+              <dl class="feature">
+                <dt class="feature-headline">1.Great Service</dt>
+                <dd class="feature-image">
+                  <img src="assets/images/001-layout.png" alt="Great Service">
+                </dd>
+                <dd class="feature-description">sample text sample text sample text sample text sample text sample text</dd>
+              </dl>
+            </li>
+            <li>
+              <dl class="feature">
+                <dt class="feature-headline">2.High Performance</dt>
+                <dd class="feature-image">
+                  <img src="assets/images/003-jigsaw.png" alt="High Performance">
+                </dd>
+                <dd class="feature-description">sample text sample text sample text sample text sample text sample text</dd>
+              </dl>
+            </li>
+            <li>
+              <dl class="feature">
+                <dt class="feature-headline">3.Strong Responsibility</dt>
+                <dd class="feature-image">
+                  <img src="assets/images/002-product.png" alt="Strong Responsibility">
+                </dd>
+                <dd class="feature-description">sample text sample text sample text sample text sample text sample text</dd>
+              </dl>
+            </li>
+            <li>
+              <dl class="feature">
+                <dt class="feature-headline">4.Excellent Technology</dt>
+                <dd class="feature-image">
+                  <img src="assets/images/004-settings.png" alt="Excellent Technology">
+                </dd>
+                <dd class="feature-description">sample text sample text sample text sample text sample text sample text</dd>
+              </dl>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-container">
+        <h2 class="section-headline"  id="blog">Blog</h2>
+        <div class="blog-card">
+          <ul class="grid grid-col-3">
+            <li>
+              <article class="card"><!-- ひとかたまりで完結する独立したコンテンツに使うタグ。記事とか -->
+                <a href="#" class="card-link">
+                  <span class="card-label">New</span>
+                  <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
+                  <div class="card-info">
+                    <time datetime="2026-01-01" class="card-time">2026.01.01</time>
+                    <h3 class="card-headline">title text</h3>
+                    <p class="card-description">sample text sample text sample text sample text sample text sample text sample text </p>
+                  </div>
+                  <dl class="avatar">
+                    <dt class="avatar-name">tanaka</dt>
+                    <dd class="avatar-image">
+                      <img src="https://dummyimage.com/50x50/000/fff" alt="avatar">
+                    </dd>
+                  </dl>
+                </a>
+              </article>
+            </li>
+            <li>
+              <article class="card">
+                <a href="#" class="card-link">
+                  <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
+                  <div class="card-info">
+                    <time datetime="2026-01-01" class="card-time">2026.01.01</time>
+                    <h3 class="card-headline">title text</h3>
+                    <p class="card-description">sample text sample text sample text sample text sample text sample text sample text </p>
+                  </div>
+                  <dl class="avatar">
+                    <dt class="avatar-name">tanaka</dt>
+                    <dd class="avatar-image">
+                      <img src="https://dummyimage.com/50x50/000/fff" alt="avatar">
+                    </dd>
+                  </dl>
+                </a>
+              </article>
+            </li>
+            <li>
+              <article class="card">
+                <a href="#" class="card-link">
+                  <img class="card-image" src="https://dummyimage.com/200x100/000/fff" alt="thumbnail">
+                  <div class="card-info">
+                    <time datetime="2026-01-01" class="card-time">2026.01.01</time>
+                    <h3 class="card-headline">title text</h3>
+                    <p class="card-description">sample text sample text sample text sample text sample text sample text sample text </p>
+                  </div>
+                  <dl class="avatar">
+                    <dt class="avatar-name">tanaka</dt>
+                    <dd class="avatar-image">
+                      <img src="https://dummyimage.com/50x50/000/fff" alt="avatar">
+                    </dd>
+                  </dl>
+                </a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <a href="#" class="blog-button button-section">
+        Blog Page
+      </a>
+      
+    </section>
+  </div>
+
+  <section class="section section-2nd">
+    <div class="section-container">
+      <h2 class="section-headline" id="contact">Contact</h2>
+      <form class="form" action="">
+        <div>
+          <label class="form-label" for="menu">Menu</label>
+          <select class="select" name="select" id="menu">
+            <option value="menu-1">Menu-1</option>
+            <option value="menu-2">Menu-2</option>
+            <option value="menu-3">Menu-3</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label" for="name">NAME</label>
+          <input class="input" type="text" required id="name" name="user[name]">
+        </div>
+        <div>
+          <label class="form-label" for="e-mail">E-MAIL</label>
+          <input class="input" type="email" required id="e-mail" name="user[email]">
+        </div>
+        <div>
+          <p>GENDER</p>
+          <label class="radio">
+            <input type="radio" name="gender" value="male"> Male
+          </label>
+          <label class="radio">
+            <input type="radio" name="gender" value="female"> Female
+          </label>
+          <label class="radio">
+            <input type="radio" name="gender" value="other"> Other
+          </label>
+        </div>
+        <div>
+          <label class="form-label" for="detail">Detail</label>
+          <textarea class="textarea" name="user[detail]" id="detail" cols="30" rows="10"></textarea>
+        </div>
+
+        <button type="submit" class="blog-button button-section submit-button">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <aside class="works">
+    <img src="https://dummyimage.com/150x80/ccc/fff" alt="works-gallary">
+    <img src="https://dummyimage.com/150x80/ccc/fff" alt="works-gallary">
+    <img src="https://dummyimage.com/150x80/ccc/fff" alt="works-gallary">
+    <img src="https://dummyimage.com/150x80/ccc/fff" alt="works-gallary">
+    <img src="https://dummyimage.com/150x80/ccc/fff" alt="works-gallary">
+  </aside>
+
+  <footer class="footer" id="map">
+    <div class="section-container">
+      <figure class="footer-map">
+        <div class="map-wrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.831946129612!2d139.76448647578775!3d35.6811397725873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1787757699396!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <figcaption class="footer-mapinfo"><!-- この地図に関する説明・所在地情報としてfigcaptionを置いているので、意味として自然です。 -->
+          <div class="footer-maplogo">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 100 100" width="30px" height="30px" fill-rule="evenodd" clip-rule="evenodd" baseProfile="basic"><path fill="#f0f5ff" fill-rule="evenodd" d="M42.006,76.584	L14.56,49.136l8.484-8.484l18.961,18.96L79.23,22.387l8.487,8.484L42.006,76.584z" clip-rule="evenodd"/><path fill="#1d50b5" fill-rule="evenodd" d="M42.006,77.998	L13.145,49.136l9.897-9.897l18.961,18.96l37.225-37.225l9.901,9.897L42.006,77.998z M42.005,75.17l44.297-44.298l-7.072-7.071	L42.005,61.026l-18.961-18.96l-7.071,7.071L42.005,75.17z" clip-rule="evenodd"/><defs><filter id="zadpPPfW9iRbiSYQXFyHib" width="41.001" height=".999" x="1" y="77.001" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHic" width="41.001" height=".999" x="1" y="77.001" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHia" x1="-224.651" x2="-157.973" y1="16674.873" y2="16674.873" gradientTransform="translate(226.068 -16324.875)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHia)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHib)"/></mask><path fill="#1d50b5" d="M42.001,78v-0.999H1V78H42.001z" mask="url(#zadpPPfW9iRbiSYQXFyHic)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHie" width="13.001" height=".999" x=".998" y="49" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHif" width="13.001" height=".999" x=".998" y="49" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHid" x1="-224.723" x2="-203.579" y1="16695.875" y2="16695.875" gradientTransform="translate(225.853 -16345.876)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHid)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHie)"/></mask><path fill="#1d50b5" d="M14,49.998V49H0.998v0.999H14z" mask="url(#zadpPPfW9iRbiSYQXFyHif)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHih" width="56.998" height=".999" x="42.001" y="77" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHii" width="56.998" height=".999" x="42.001" y="77" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHig" x1="-15331.6" x2="-15238.902" y1="409.125" y2="409.125" gradientTransform="rotate(180 -7616.59 379.562)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHig)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHih)"/></mask><path fill="#1d50b5" d="M42.001,77.998V77h56.998v0.999	H42.001z" mask="url(#zadpPPfW9iRbiSYQXFyHii)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHik" width="11.001" height=".999" x="87.998" y="30.001" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHil" width="11.001" height=".999" x="87.998" y="30.001" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHij" x1="-15331.716" x2="-15313.827" y1="373.876" y2="373.876" gradientTransform="rotate(180 -7616.415 361.938)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHij)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHik)"/></mask><path fill="#1d50b5" d="M87.998,31v-0.999h11.001V31	H87.998z" mask="url(#zadpPPfW9iRbiSYQXFyHil)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHin" width="19.788" height=".999" x="79.211" y="21.001" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHio" width="19.788" height=".999" x="79.211" y="21.001" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHim" x1="-15331.693" x2="-15299.517" y1="367.126" y2="367.126" gradientTransform="rotate(180 -7616.448 358.563)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHim)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHin)"/></mask><path fill="#1d50b5" d="M79.211,22v-0.999h19.788V22	H79.211z" mask="url(#zadpPPfW9iRbiSYQXFyHio)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiq" width="21.999" height=".999" x="1" y="39" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHir" width="21.999" height=".999" x="1" y="39" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHip" x1="-224.699" x2="-188.922" y1="16703.375" y2="16703.375" gradientTransform="translate(225.923 -16353.376)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHip)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiq)"/></mask><path fill="#1d50b5" d="M22.998,39.999V39H1v0.999	H22.998z" mask="url(#zadpPPfW9iRbiSYQXFyHir)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHit" width="33.001" height=".999" x="23" y="39.001" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiu" width="33.001" height=".999" x="23" y="39.001" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHis" x1="-15320.91" x2="-15267.241" y1="380.626" y2="380.626" gradientTransform="rotate(180 -7632.624 365.313)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHis)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHit)"/></mask><path fill="#1d50b5" d="M23,40v-0.999h33.001V40H23z" mask="url(#zadpPPfW9iRbiSYQXFyHiu)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiw" width="56.217" height=".999" x="23" y="21.001" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHix" width="56.217" height=".999" x="23" y="21.001" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiv" x1="-219.113" x2="-127.696" y1="16716.873" y2="16716.873" gradientTransform="translate(242.684 -16366.875)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiv)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiw)"/></mask><path fill="#1d50b5" d="M79.217,22v-0.999H23V22H79.217	z" mask="url(#zadpPPfW9iRbiSYQXFyHix)"/><path fill="#1d50b5" fill-opacity=".251" d="M92.999,22h1v1h-1V22z M92.999,24h1v1h-1	V24z M92.999,26h1v1h-1V26z M92.999,28h1v1h-1V28z M92.999,31h1v1h-1V31z M92.999,33h1v1h-1V33z M92.999,35h1v1h-1V35z M92.999,37h1	v1h-1V37z M92.999,39h1v1h-1V39z M92.999,41h1v1h-1V41z M92.999,43h1v1h-1V43z M92.999,45h1v1h-1V45z M92.999,47h1v1h-1V47z M92.999,49h1v1h-1V49z M92.999,51h1v1h-1V51z M92.999,53h1v1h-1V53z M92.999,55h1v1h-1V55z M92.999,57h1v1h-1V57z M92.999,59h1v1	h-1V59z M92.999,61h1v1h-1V61z M92.999,63h1v1h-1V63z M92.999,65h1v1h-1V65z M92.999,67h1v1h-1V67z M92.999,69h1v1h-1V69z M92.999,71h1v1h-1V71z M92.999,73h1v1h-1V73z M92.999,75h1v1h-1V75z"/><path fill="#1d50b5" fill-opacity=".251" d="M7.002,41h-1v1h1V41z M7.002,43h-1v1h1V43	z M7.002,45h-1v1h1V45z M7.002,47h-1v1h1V47z M7.002,51h-1v1h1V51z M7.002,53h-1v1h1V53z M7.002,55h-1v1h1V55z M7.002,57h-1v1h1V57z M7.002,59h-1v1h1V59z M7.002,61h-1v1h1V61z M7.002,63h-1v1h1V63z M7.002,65h-1v1h1V65z M7.002,67h-1v1h1V67z M7.002,69h-1v1h1V69z M7.002,71h-1v1h1V71z M7.002,73h-1v1h1V73z M7.002,75h-1v1h1V75z"/><path fill="#1d50b5" fill-opacity=".251" d="M41.999,23h-1v1h1V23z M41.999,25h-1v1h1	V25z M41.999,27h-1v1h1V27z M41.999,29h-1v1h1V29z M41.999,31h-1v1h1V31z M41.999,33h-1v1h1V33z M41.999,35h-1v1h1V35z M41.999,37	h-1v1h1V37z"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiz" width=".999" height="21.001" x="13.001" y="27.997" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiA" width=".999" height="21.001" x="13.001" y="27.997" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiy" x1="82.053" x2="116.208" y1="586.14" y2="586.14" gradientTransform="rotate(90 532.487 478.645)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiy)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiz)"/></mask><path fill="#1d50b5" d="M13.001,48.998H14V27.997	h-0.999V48.998z" mask="url(#zadpPPfW9iRbiSYQXFyHiA)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiC" width=".999" height="45.001" x="13.001" y="48.998" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiD" width=".999" height="45.001" x="13.001" y="48.998" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiB" x1="-15630.385" x2="-15557.199" y1="16497.859" y2="16497.859" gradientTransform="rotate(-90 -15804.857 268.012)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiB)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiC)"/></mask><path fill="#1d50b5" d="M13.001,48.998H14V94h-0.999	V48.998z" mask="url(#zadpPPfW9iRbiSYQXFyHiD)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiF" width=".999" height="21.001" x="23.001" y="19" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiG" width=".999" height="21.001" x="23.001" y="19" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiE" x1="79.803" x2="113.959" y1="593.64" y2="593.64" gradientTransform="rotate(90 539.61 479.02)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiE)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiF)"/></mask><path fill="#1d50b5" d="M23.001,40.001H24V19h-0.999	V40.001z" mask="url(#zadpPPfW9iRbiSYQXFyHiG)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiI" width=".999" height="15.999" x="23.001" y="40.001" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiJ" width=".999" height="15.999" x="23.001" y="40.001" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiH" x1="-15620.959" x2="-15594.94" y1="16490.359" y2="16490.359" gradientTransform="rotate(-90 -15815.246 250.124)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiH)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiI)"/></mask><path fill="#1d50b5" d="M23.001,40.001H24V56h-0.999	V40.001z" mask="url(#zadpPPfW9iRbiSYQXFyHiJ)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiL" width=".999" height="21.001" x="88.001" y="8.997" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiM" width=".999" height="21.001" x="88.001" y="8.997" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiK" x1="77.303" x2="111.459" y1="642.39" y2="642.39" gradientTransform="rotate(90 567.737 499.645)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiK)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiL)"/></mask><path fill="#1d50b5" d="M88.001,29.999h0.999V8.997	h-0.999V29.999z" mask="url(#zadpPPfW9iRbiSYQXFyHiM)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiO" width=".999" height="63.998" x="88.001" y="30" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiP" width=".999" height="63.998" x="88.001" y="30" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiN" x1="-15630.337" x2="-15526.25" y1="16441.609" y2="16441.609" gradientTransform="rotate(-90 -15776.804 239.815)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiN)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiO)"/></mask><path fill="#1d50b5" d="M88.001,30h0.999v63.998h-0.999	V30z" mask="url(#zadpPPfW9iRbiSYQXFyHiP)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiR" width=".999" height="21.001" x="78.999" y="1" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiS" width=".999" height="21.001" x="78.999" y="1" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiQ" x1="75.303" x2="109.459" y1="635.639" y2="635.639" gradientTransform="rotate(90 567.36 493.27)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiQ)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiR)"/></mask><path fill="#1d50b5" d="M78.999,22.001h0.999V1h-0.999	V22.001z" mask="url(#zadpPPfW9iRbiSYQXFyHiS)"/><defs><filter id="zadpPPfW9iRbiSYQXFyHiU" width=".999" height="14.999" x="78.999" y="22.001" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="zadpPPfW9iRbiSYQXFyHiV" width=".999" height="14.999" x="78.999" y="22.001" maskUnits="userSpaceOnUse"><linearGradient id="zadpPPfW9iRbiSYQXFyHiT" x1="-15616.212" x2="-15591.818" y1="16448.361" y2="16448.361" gradientTransform="rotate(-90 -15801.367 222.003)" gradientUnits="userSpaceOnUse"><stop offset="0"/><stop offset="1" stop-color="#fff"/></linearGradient><rect width="1739.99" height="839.997" x="-445.005" y="-70" fill="url(#zadpPPfW9iRbiSYQXFyHiT)" fill-rule="evenodd" clip-rule="evenodd" filter="url(#zadpPPfW9iRbiSYQXFyHiU)"/></mask><path fill="#1d50b5" d="M78.999,22.001h0.999V37h-0.999	V22.001z" mask="url(#zadpPPfW9iRbiSYQXFyHiV)"/><path fill="#1d50b5" fill-opacity=".251" d="M41.999,41h-1v1h1V41z M41.999,43h-1v1h1	V43z M41.999,45h-1v1h1V45z M41.999,47h-1v1h1V47z M41.999,49h-1v1h1V49z M41.999,51h-1v1h1V51z M41.999,53h-1v1h1V53z M41.999,55	h-1v1h1V55z"/><path fill="#1d50b5" fill-opacity=".251" d="M15,85v-1h1v1H15z M17,85v-1h1v1H17z M19,85v-1h1v1H19z M21,85v-1h1v1H21z M23,85v-1h1v1H23z M25,85v-1h1v1H25z M27,85v-1h1v1H27z M29,85v-1h1v1H29z M31,85v-1h1v1H31z M33,85v-1h1v1H33z M34.999,85v-1h1v1H34.999z M36.999,85v-1h1v1H36.999z M38.999,85v-1h1v1H38.999z M40.999,85v-1h1v1H40.999z M42.999,85v-1h1v1H42.999z M44.999,85v-1h1v1H44.999z M46.999,85v-1h1v1H46.999z M48.999,85v-1h1v1H48.999z M50.999,85v-1h1v1	H50.999z M52.999,85v-1h1v1H52.999z M54.999,85v-1h1v1H54.999z M56.999,85v-1h1v1H56.999z M58.999,85v-1h1v1H58.999z M60.999,85v-1	h1v1H60.999z M62.999,85v-1h1v1H62.999z M64.999,85v-1h1v1H64.999z M66.999,85v-1h1v1H66.999z M68.999,85v-1h1v1H68.999z M70.999,85	v-1h1v1H70.999z M72.999,85v-1h1v1H72.999z M74.999,85v-1h1v1H74.999z M76.999,85v-1h1v1H76.999z M78.999,85v-1h1v1H78.999z M80.999,85v-1h1v1H80.999z M82.999,85v-1h1v1H82.999z M84.999,85v-1h1v1H84.999z M86.999,85v-1h1v1H86.999z"/></svg>
+            TANAKA Inc.
+          </div>
+          <address class="footer-mapaddress">
+            〒100-0005 東京都千代田区丸の内１丁目９<br/>
+            <a href="https://maps.app.goo.gl/6vynnYmjhqvKPx5R6" target="_blank" rel="noopener noreferrer">Google Map</a><!--relの二つはセキュリティ対策-->
+          </address>
+        </figcaption>
+      </figure>
+    </div>
+    <hr class="footer-line"><!--ただの区切り線-->
+    <div class="copy-right">
+      <p>&copy; 2026 TANAKA Inc.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
