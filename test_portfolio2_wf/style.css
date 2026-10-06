@@ -64,6 +64,7 @@ button {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  padding: 20px;
 }
 
 .header {
@@ -104,6 +105,8 @@ button {
   height: 230px;
   width: 900px;  
   margin: 40px 0 103px; 
+  max-width: 100%;
+  
 }
 
 .top-headline {
@@ -285,7 +288,7 @@ button {
   height: 194px;
   width: 900px;
   text-align: left;
-
+  max-width: 100%;
 }
 
 .section-contact ul {
@@ -323,3 +326,82 @@ button {
   font-size: 10px;
 }
 
+@media (max-width: 780px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+
+  .section-top {
+    height: auto;
+    padding: 20px;
+  }
+  .point-label {
+    margin-left: 10px;
+  }
+  .top-point-item {
+    gap: 15px;
+  }
+
+  .recommend-item {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .recommend-pattern {
+    justify-content: center;
+  }
+
+  .flow-list {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .flow-item:not(:last-child)::after {
+    content: "▽";
+    top: auto;
+    right: 50%;
+    bottom: -24px;
+    transform: translateX(50%);
+    font-size: 14px;
+  }
+  
+  .card-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+
+  .story-figure {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  } 
+  .story-caption {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .story-text {
+    font-size: 13px;
+  } 
+
+  .section-contact {
+    height: auto;
+  }
+  .section-contact li {
+    font-size: 14px;
+  }
+  .section-contact ul {
+    margin-bottom: 20px;
+  }
+
+  .contact-headline {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .contact-button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
