@@ -345,9 +345,7 @@ button {
   .recommend-item {
     grid-template-columns: 1fr;
     margin: 0 auto;
-  }
-  .recommend-pattern {
-    justify-content: center;
+    width: fit-content;
   }
 
   .flow-list {
